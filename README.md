@@ -1,29 +1,40 @@
 # Fish
 Using a dataset of various fish species, we aim to predict the weight of the Bream species fish based on its vertical length and will classify the species of fish based on certain characteristics such as vertical length, diagonal length, cross length, height, and width. We'll employ the KNN model to predict fish species based on their characteristics & Linear Regression method to determine the linear relationship between fish vertical length and the fish's weight.
 
-Species: The species name of the fish
-
-Weight: The weight of the fish in grams
-
-Length1: Vertical length in centimeters
-
-Length2: Diagonal length in centimeters
-
-Length3: Cross length in centimeters
-
-Height: Height in centimeters
-
-Width: Diagonal width in centimeters
+  Species: The species name of the fish
+  Weight: The weight of the fish in grams
+  Length1: Vertical length in centimeters
+  Length2: Diagonal length in centimeter
+  Length3: Cross length in centimeters
+  Height: Height in centimeters
+  Width: Diagonal width in centimeters
 
 ## Data Exploration
-Fish data set was explored by looking at the first few records and summary statistics of each column and renamed the column to get easy understanding of each variables name.
+To understand the Fish dataset better, the following steps were taken during the data exploration phase:
+
+Viewing the First Few Records: The initial records of the dataset were examined to get an overview of the structure and content. This helps in identifying the data types of each column and any obvious issues, such as missing or inconsistent values.
+Summary Statistics: Summary statistics for each column were checked, including measures such as:
+Count: The number of non-missing values.
+Mean: The average value.
+Standard Deviation: The variability in the data.
+Minimum and Maximum Values: The range of the data.
+Percentiles (25th, 50th, 75th): To understand the distribution of the data.
+These statistics provide insights into the central tendency, spread, and shape of the data distribution, helping to identify potential outliers or anomalies.
+
+Column Renaming: The column names were renamed for easier understanding and better clarity. For instance, columns might be renamed as follows:
+Length1: Vertical length in centimeters.
+Length2: Diagonal length in centimeters.
+Length3: Cross length in centimeters.
+Renaming columns helps ensure that the variable names are intuitive and descriptive, which is crucial for further analysis and interpretation.
+
+This initial exploration sets the stage for deeper data analysis and modeling by providing a foundational understanding of the dataset's characteristics and quality.
 ![image](https://github.com/user-attachments/assets/855cd03e-42d0-4750-8c03-b6c0a0872208)
 ![image](https://github.com/user-attachments/assets/95ab1724-e16c-46d9-9837-cd9c1be2690f)
 ![image](https://github.com/user-attachments/assets/a27e4467-0afa-42c2-a93c-47502733af2d)
 Then identified correlation between numerical variables of fish dataset. 
 ![image](https://github.com/user-attachments/assets/50bae631-e35a-46a5-b8ab-13b91e6d12ca)
 
-## Data Exploration
+## Data Analysis
 ![image](https://github.com/user-attachments/assets/8cd4ee48-4a64-4c6d-bc22-693e1dcdca05)
 The diagram above visually represents the relationship between fish weight and vertical length, demonstrating a clear trend where fish weight increases with greater vertical length. The diagram below depicts the distribution of fish weights and vertical lengths across different species, highlighting variations in these characteristics among the species.
 ![image](https://github.com/user-attachments/assets/27393aa1-f1c6-47ec-a80e-03b6a2b52d4f)
