@@ -29,8 +29,11 @@ Renaming columns helps ensure that the variable names are intuitive and descript
 
 This initial exploration sets the stage for deeper data analysis and modeling by providing a foundational understanding of the dataset's characteristics and quality.
 ![image](https://github.com/user-attachments/assets/855cd03e-42d0-4750-8c03-b6c0a0872208)
+
 ![image](https://github.com/user-attachments/assets/95ab1724-e16c-46d9-9837-cd9c1be2690f)
+
 ![image](https://github.com/user-attachments/assets/a27e4467-0afa-42c2-a93c-47502733af2d)
+
 Then identified correlation between numerical variables of fish dataset. 
 ![image](https://github.com/user-attachments/assets/50bae631-e35a-46a5-b8ab-13b91e6d12ca)
 
