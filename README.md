@@ -1,5 +1,5 @@
 # Fish
-Using a dataset of various fish species, we aim to predict the weight of the Bream species fish based on certain characteristics such as vertical length, diagonal length, cross length, height, and width. We'll employ the Linear Regression method to determine the relationship between these characteristics and the fish's weight.
+Using a dataset of various fish species, we aim to predict the weight of the Bream species fish based on its vertical length and will classify the species of fish based on certain characteristics such as vertical length, diagonal length, cross length, height, and width. We'll employ the KNN model to predict fish species based on their characteristics & Linear Regression method to determine the linear relationship between fish vertical length and the fish's weight.
 
 Species: The species name of the fish
 
